@@ -1,0 +1,167 @@
+@import url('assets/action.css');
+@import url('assets/navegation.css');
+@import url('assets/img.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-slide {
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    background-color: black;
+    margin: 10vh auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px black;
+    justify-content: space-between;
+
+}
+
+
+
+
+.container-items {
+    position: absolute;
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.item {
+    width: 50vw;
+    height: 50vh;
+
+}
+
+.item:first-child {
+    margin: -100%;
+}
+
+.item img {
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+
+}
+
+.action-button {
+    font: bold 30px sans-serif;
+    display: flex;
+    width: 50px;
+    color: #00000000;
+    user-select: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.action-button:hover {
+    color: white;
+    background-color: #00000099;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.tenis {
+    width: 250px;
+    display: flex;
+
+}
+
+.textos {
+    margin-top: 100px;
+}
+
+.card-logo {
+    width: 200px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.carda {
+    text-align: center;
+}
+
+.titulo-inicial {
+    font-size: 34px;
+}
+
+.estilo-inicial {
+    margin-top: 100px;
+    margin-left: 450px;
+    background-color: rgb(156, 252, 156);
+    width: 500px;
+    height: 110px;
+    border: 1px solid #000;
+    box-shadow: 0px 10px 10px black;
+    text-align: center;
+}
+
+.titulo-inicial-sec {
+    font-size: 30px;
+
+}
+
+.estilo-inicial-sec {
+    margin-top: 60px;
+    margin-left: 350px;
+
+    width: 700px;
+    height: 100px;
+
+    text-align: center;
+}
+
+.img-logo {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.estilo-img {
+    margin-top: -230px;
+}
+
+.estilo-grafico {
+    text-align: end;
+    margin-top: -300px;
+}
+
+.actions-saude {
+    color: rgb(8, 58, 8);
+    text-decoration: none;
+}
+
+.actions-saude:hover {
+    color: blue;
+}
+
+.redondo {
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.titulo-grafico {
+    font-size: 50px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.quadrado {
+    margin-top: 30px;
+    margin-left: 400px;
+
+    width: 600px;
+    height: 300px;
+
+    box-shadow: 0px 10px 10px black;
+    text-align: center;
+}

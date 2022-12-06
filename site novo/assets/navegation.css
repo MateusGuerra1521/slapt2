@@ -1,0 +1,16 @@
+.navegation{
+    display: flex;
+    justify-content: center;
+    
+}
+.header{
+    background-color: green;
+    padding: 43px;
+    box-shadow: 0px 5px 10px black;
+    display: flex;
+    justify-content: center;
+}
+body{
+    margin: 0;
+    background-color: rgb(230, 235, 240);
+}
